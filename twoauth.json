@@ -1,0 +1,81 @@
+{
+  "cookies": [
+    {
+      "name": "ApplicationGatewayAffinityCORS",
+      "value": "5ea537ad66281d774aea094c99768ccb",
+      "domain": "testmovescoutproapi.sirva.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ApplicationGatewayAffinity",
+      "value": "5ea537ad66281d774aea094c99768ccb",
+      "domain": "testmovescoutproapi.sirva.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "Abp.AuthToken",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjE3MjIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiUTIyMjIwMDAyMzYiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJzdXByaXlhLnRhbWJlQHdhaWluLmNvbSIsIkFzcE5ldC5JZGVudGl0eS5TZWN1cml0eVN0YW1wIjoiVUZVSDY1N1gyVEVQUzVDSFZKWkRVSENZNEZBNDRKQk4iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOlsiQ29vcmRpbmF0b3IiLCJTYWxlcyBNYW5hZ2VyIl0sImh0dHA6Ly93d3cuYXNwbmV0Ym9pbGVycGxhdGUuY29tL2lkZW50aXR5L2NsYWltcy90ZW5hbnRJZCI6IjEiLCJzdWIiOiIxNzIyIiwianRpIjoiMzE2MzdlMzEtNTY4OS00NDFmLTlmODItMDI4MmNhMjA4NTZkIiwiaWF0IjoxNjg4MTEzMDM2LCJ0b2tlbl92YWxpZGl0eV9rZXkiOiIwOTM3YmZiNC0wYjlmLTRmM2YtYWIwZi02ZDYzZDE2YjgxZTgiLCJ1c2VyX2lkZW50aWZpZXIiOiIxNzIyQDEiLCJ0b2tlbl90eXBlIjoiMCIsInJlZnJlc2hfdG9rZW5fdmFsaWRpdHlfa2V5IjoiOGRkNzAyYzktMTM4Ni00ZmM1LTlkNWUtNzhkZjdhMjJiYTU3IiwibmJmIjoxNjg4MTEzMDQwLCJleHAiOjE2ODgxOTk0NDAsImlzcyI6IlNhbGVzIiwiYXVkIjoiU2FsZXMifQ.Gzn_OZcDY91rwKvJOvrtqpiJhbCW3W2RU4WevgSRxzE",
+      "domain": "testmovescoutpro.sirva.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ApplicationGatewayAffinityCORS",
+      "value": "5ea537ad66281d774aea094c99768ccb",
+      "domain": "testmovescoutpro.sirva.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ApplicationGatewayAffinity",
+      "value": "5ea537ad66281d774aea094c99768ccb",
+      "domain": "testmovescoutpro.sirva.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://testmovescoutpro.sirva.com",
+      "localStorage": [
+        {
+          "name": "Sales/abpzerotemplate_local_storage/enc_auth_token",
+          "value": "{\"token\":\"wNYmO41/48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA/QhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi/FyB6axBY+6gq1GL+uRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U+og9pkHw9/RxqbcL7k/N81BojJoOn7ty4s9Rrn46FZSLdQcGG0Fw7PZN8iqzWov1ybcwVPMqWu5GXqtnCHEH5uYLMR5g+n0Uh9H9mhLlrFHYdL+883wOSLR9nTBhJOkAc+S83hMwUhdOhwlYIcNcCVj5RUNGP4CP877H4XAKJZluAh/g07PY8b4l1oGScQ3VO0G8LP9Uy3+L5R1jV6ZtVlfh2YeWkjTPdtNQmvCEsH+H8v+JwWTdCwafsvJPUT5BAF4TzNSeFjDcTkqbTTFPGi7spBWaKviARHDsyuy09gl8+DcTcgL5awuK4TZg20sGKWUYzkJQD73edL9JxKSIcL2v9ERc4OKSntxbZLUjTUN1R+sgEdhG4HSpai9MCTAmXdZl0BS5hG5cXzeIXwOgN8kme51dsz/d1WO0jlnUy55kX/ezNwAVpMaiRQ4r/Rc61m1U3PH6SfjHmbnH4XmIjB/nQj0DDLgX6D41G9YFdxvLG1h/5aLNDI8nR+9Fpu/OgsBTlLmqpRDfNgG6KPR5553qQtQgfnKgFUMD/oLXZEx2oyNv8PE9pY1dqAXQxCah3aQIxBvATWrujohxMfpbFcOluWh6v2CTaYSSoJBo0QUQjKH8HLkFPaXJZAa51qS/hWJgxOF/toEQgLWlLsI+RGn8/lQRupiMd1KyI6tSLd9DjbJ8VR/Fi+LR6gRChdfx/94PTQHQU7sUQTWB4fGbviL/fpBGD9oJB4Ws/5NVU/G08FhiAe90sA1duBerlxJahCQK2fMJv+8O/U2oYW8XrLjsuODtI7UaSPiMbTnpSsYyDXbLXysOE32Bb61DR63RFArXokjKhqZHQrg9eD5X/13cOXWWBAOqJDwtD1q13vnSurcoxhhRwLD9Lwt9Vx/dEKy9SwSfJ8/FG8OBIMV6XKtPBu6caZYkxh8pXiTkOdCUHznSyN1XAUw7gkk4d3sw9VAAenNg7Y2jxhjkBLsDyvshcIdN4oXLbF+ET/l0LyD6ivMPVaWcx2jT0xtMQkMFPvhTxd6JcTGy6pdPcCX0noWE+fyYGjBkUAVXb44yiyJfdhtvJWBdXdyu6VHaMS28sRcqgy3FGXLCM5GaqP1CTjVnkvWVber8wS0dxUirWkdS4jiY0tCsN+bFaTY5ibNvqWHnvyk5gz7r53UpMekEaEGWn7wUzQvlbg6PeZE1LB45AgkatB0iMggivfWEkf5Uxcx/1/4AeKj9KXXgvOa0wTX/LeS6d1k06iI3zIphhSmqwmslCx7hkt8BzLionfWZ0W5//ga7S5GLCfC7r3N0oz1MDlrXsaIw0gNI0txqfTpYrVAHfIAOh/IT6yiP677TiDGDb7ND+SM=\"}"
+        },
+        {
+          "name": "DashboardFilter",
+          "value": "[{\"id\":\"Page76e000da961446e7a0a366347adf979a\",\"filter\":{\"agencyId\":\"2\",\"fromDate\":\"2023-01-01T00:00:00.000Z\",\"todate\":\"2023-12-31T00:00:00.000Z\",\"topInputCount\":10,\"moveTypeId\":\"119,120,121,122,123,124,125,126,127,128,129,130,746\",\"leadType\":0}}]"
+        },
+        {
+          "name": "Sales/abpzerotemplate_local_storage/Abp.SessionTimeOut.UserLastActivityTime",
+          "value": "\"1688113045259\""
+        },
+        {
+          "name": "LoaderImageURL",
+          "value": "Allied-loader.gif"
+        },
+        {
+          "name": "revenueSalePersonPageSize",
+          "value": "5"
+        }
+      ]
+    }
+  ]
+}

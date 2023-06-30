@@ -1,0 +1,85 @@
+{
+  "cookies": [
+    {
+      "name": "ApplicationGatewayAffinityCORS",
+      "value": "5ea537ad66281d774aea094c99768ccb",
+      "domain": "testmovescoutproapi.sirva.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ApplicationGatewayAffinity",
+      "value": "5ea537ad66281d774aea094c99768ccb",
+      "domain": "testmovescoutproapi.sirva.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "Abp.AuthToken",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbkBkZWZhdWx0dGVuYW50LmNvbSIsIkFzcE5ldC5JZGVudGl0eS5TZWN1cml0eVN0YW1wIjoiNzI1OTgzYmMtMmFiMC1hOGRiLTc3MzMtMzlmYTEwNjJlNzQ1IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJodHRwOi8vd3d3LmFzcG5ldGJvaWxlcnBsYXRlLmNvbS9pZGVudGl0eS9jbGFpbXMvdGVuYW50SWQiOiIxIiwic3ViIjoiMiIsImp0aSI6IjNmZDFjOTA4LWJkNjUtNDhlNC04ZDAxLWViMjhmOGEwMTc3OCIsImlhdCI6MTY4ODExMzE4MCwidG9rZW5fdmFsaWRpdHlfa2V5IjoiYTIwYzZjOGYtM2I2Yy00MmJjLTkzNmMtMWUxZjNmODc5NGMwIiwidXNlcl9pZGVudGlmaWVyIjoiMkAxIiwidG9rZW5fdHlwZSI6IjAiLCJyZWZyZXNoX3Rva2VuX3ZhbGlkaXR5X2tleSI6ImI1YmFiOGRmLTg1OTMtNDc4ZC1iODI3LWQ5MGJjY2E0NGU0MiIsIm5iZiI6MTY4ODExMzE4MSwiZXhwIjoxNjg4MTk5NTgxLCJpc3MiOiJTYWxlcyIsImF1ZCI6IlNhbGVzIn0.Gz97BbUqqOsMl9lGOA9J1psZi--Jvs8CmLixjXkLAjA",
+      "domain": "testmovescoutpro.sirva.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ApplicationGatewayAffinityCORS",
+      "value": "5ea537ad66281d774aea094c99768ccb",
+      "domain": "testmovescoutpro.sirva.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "ApplicationGatewayAffinity",
+      "value": "5ea537ad66281d774aea094c99768ccb",
+      "domain": "testmovescoutpro.sirva.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://testmovescoutpro.sirva.com",
+      "localStorage": [
+        {
+          "name": "Sales/abpzerotemplate_local_storage/enc_auth_token",
+          "value": "{\"token\":\"wNYmO41/48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA/QhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi/FyB6axBY+6gq1GL+uRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U+og9pkHw9/Rkp3UZ8A1gKoReYXpvXHc0KFXzGY3aUxaXUOjpNPSTn4LyfFvWqGRq42yefBXGrkBTbBN3h9UXPP+25Rfae1rBCQrd8mQ0G3JHpGlVZBMKMD5RSIjWMCe3sPKe05J4ZS4J04kFI7IwvG1YujIyWBTn2mpzsQnQS6Ra1+nJNCceCjn20hOr24hTyw2b14yETbSNqqkk42JOjzRuEqkw4LpT8q5UWtqxRIzr/4CIBrJNCfYA76UUozRiMA8HGSXwhWoeynUhbhs3KOshiLE1Pf/8uJSG4FLbCOET4JS+5gWgmzpgm/Tx5/85g3UyzVj6ax8QphUUillW/dEwV58D9+sgRIH+mgUzn3XRqvfvoS9h11iIE0dYmM+8FdJrMjWDFkzpCCovg6CdlgZ8jCbyU0owSlQy2977+rEqWXqwGvwEB+7bFHms6TXA046acdPnKieZdj8PToHzJlcrWh81zNYOPSLQ9Rg2gslWBiACdiXWNGaftjkNAAjbqzRFvGVgeG7dHPDYgGAaR+97k+as2pXDfSTggxT2i842fGH2Jh1lq80r1peBv2x8f9clpuLzDSut0aiUBpPCkaMebp/XV4GQSenYf5cmNFE5uOreVWjelsF9f5GdPv3YcOqebOv6wSi6G12AoAH6GZ9eXNAVV2RnC7N6iub3kUgenA5I47cjg1f05sldAc2FjpTJKNxBpODB/B8Y2xdc+NqsbuFcDdHrBJRAXpYorxQAWppQXGoL+3AOFyCt5p0tVVbxY2ozTkD+Wqb7nPournVO9FoYR7CGueOKpmGb0z7hoEJACjYnNU1QSuW2tUXeTTPuBeUrpg6+dvh6dSSXOQaGrnIt10qJkb1i90j1jPSKPPxwvba67nriA/7BUbFLdeE2XPHcqZNl6JCD4ErRuDPiFHpj7g3ftCRaBwlPkzOvHTj7tVKEY7gbDXY4sPmrD6x74OHDO6wj07q37b0hOZ7qcaDEM5pw1YnnHVf36mWgvtLVGy+ZwHD1io8T5kx/4tIMPpqkETJ2uC/LPdBrXSnbF6xfh+aEr1OG0X/wWgm3yqV0OjY+sK8mtZm2RTuJa9OOOyh3ncepdFIWdIYvl2Fi0f4Ye/QC4Ww7iO9gFAL13zwlAdltoFOwXeP/dqqWWn/h6S/rkKOYbIDeJ4C5BOumRDZThM8Xd8JfBTKJ1pQhW6jL2Z0oKM5ZSSuTo7Jt33GbRyc2ZXUY7FYfA0X1+nqfd5ycgYEo3alRmAWo1AuDMcr0xGYJGKifUQuOOYJHOqfef/vQEHE=\"}"
+        },
+        {
+          "name": "LeadBookerId",
+          "value": "null"
+        },
+        {
+          "name": "Sales/abpzerotemplate_local_storage/Abp.SessionTimeOut.UserLastActivityTime",
+          "value": "\"1688113229590\""
+        },
+        {
+          "name": "tokenLead",
+          "value": "0"
+        },
+        {
+          "name": "agencyToken",
+          "value": "null"
+        },
+        {
+          "name": "LoaderImageURL",
+          "value": "NorthAmerica-loader.gif"
+        }
+      ]
+    }
+  ]
+}
