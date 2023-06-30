@@ -1,32 +1,23 @@
-//common.spec.ts
+let baseUrl = "https://testmovescoutpro.sirva.com/account/login";
 
-let baseUrl="https://testmovescoutpro.sirva.com/account/login";
+export async function loginTestCode({ browser, storageState }) {
+  const context = await browser.newContext({ storageState });
+  const page = await context.newPage();
+  await page.goto(baseUrl);
+  await page.waitForTimeout(5000);
+}
 
-//For Admin Login Skip
-
-
+// Admin Login
 export async function loginTestCodeforAdmin({ browser }) {
-    const context = await browser.newContext({ storageState: "./adminauth.json" });
-    const page = await context.newPage();
-    await page.goto(baseUrl);
-    await page.waitForTimeout(5000);
+  await loginTestCode({ browser, storageState: "./adminauth.json" });
 }
 
-//For User one Login Skip
+// User one Login
 export async function loginTestCodeforUserOne({ browser }) {
-    const context = await browser.newContext({ storageState: "./oneauth.json" });
-    const page = await context.newPage();
-    await page.goto(baseUrl);
-    await page.waitForTimeout(5000);
+  await loginTestCode({ browser, storageState: "./oneauth.json" });
 }
 
-//For User Two Login Skip
+// User Two Login
 export async function loginTestCodeforUserTwo({ browser }) {
-    const context = await browser.newContext({ storageState: "./twoauth.json" });
-    const page = await context.newPage();
-    await page.goto(baseUrl);
-    await page.waitForTimeout(5000);
+  await loginTestCode({ browser, storageState: "./twoauth.json" });
 }
-
-
-
