@@ -1,12 +1,10 @@
 import { test, expect } from '@playwright/test';
+import { loginTestCodeforUserTwo } from '../common.spec';
 
-test("Code for Website Login Skip", async ({ browser }) => {
-  const context = await browser.newContext({
-    storageState: "./twoauth.json",
-  });
-  const page = await context.newPage();
-  await page.goto("https://testmovescoutpro.sirva.com/account/login");
-  await page.waitForTimeout(5000);
+test("User 1 >> Test for Website Login Skip ", async ({ browser }) => {
+  await loginTestCodeforUserTwo({ browser });
+  const page = browser.contexts()[0].pages()[0];
   await page.pause();
+  //Write Validation Here
 });
 

@@ -1,12 +1,13 @@
 import { test, expect } from '@playwright/test';
+import { loginTestCodeforAdmin } from '../common.spec';
 
-test("Code for Website Login Skip", async ({ browser }) => {
-  const context = await browser.newContext({
-    storageState: "./adminauth.json",
-  });
-  const page = await context.newPage();
-  await page.goto("https://testmovescoutpro.sirva.com/account/login");
-  await page.waitForTimeout(5000);
-  await page.pause();
+test("Admin >> Test for Website Login Skip", async ({ browser }) => {
+    await loginTestCodeforAdmin({ browser });
+  
+    
+    // Validate that the login was successful
+    const page = browser.contexts()[0].pages()[0];
+    await page.pause();
 });
+
 
