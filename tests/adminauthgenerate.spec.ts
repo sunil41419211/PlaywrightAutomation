@@ -4,7 +4,7 @@ test('test for admin auth file', async ({ page }) => {
 
     test.setTimeout(300000);
   
-      await page.goto("https://testmovescoutpro.sirva.com/account/login");
+    await page.goto("https://testmovescoutpro.sirva.com/account/login");
   
     await page.getByPlaceholder('User name or email *').click();
   
