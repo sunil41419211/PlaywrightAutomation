@@ -1,0 +1,56 @@
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- main
+pool:
+  name: Azure Pipelines
+steps:
+- task: JavaToolInstaller@0
+  displayName: 'Use Java 11'
+  inputs:
+    versionSpec: 11
+    jdkArchitectureOption: x64
+    jdkSourceOption: PreInstalled
+
+- task: NodeTool@0
+  displayName: 'Node Installation 16.x'
+  inputs:
+    versionSpec: 16.0
+  enabled: false
+
+- script: 'npm i -D playwright'
+  workingDirectory: angular/Playwright
+  displayName: 'Install Playwright'
+
+- script: 'npm install -D @playwright/test'
+  workingDirectory: angular/Playwright
+  displayName: 'install playwright/test'
+  continueOnError: true
+
+- script: |
+   npm i -D allure-playwright
+   
+  displayName: 'Install allure report'
+
+- script: 'npm i -D allure-commandline'
+  displayName: 'Install allure commandline'
+
+
+
+- script: 'npx playwright test --headed --reporter=line,allure-playwright --workers 4'
+  workingDirectory: angular/Playwright
+  displayName: 'Run TEST'
+  enabled: false
+  continueOnError: true
+  condition: always()
+
+
+
+- script: 'npx allure generate ./allure-results --clean'
+  workingDirectory: angular/Playwright
+  displayName: 'Run Every  Module Clean Result'
+  continueOnError: true
+  condition: succeededOrFailed()
