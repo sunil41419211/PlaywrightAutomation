@@ -41,7 +41,6 @@ steps:
 
 
 - script: 'npx playwright test --headed --reporter=line,allure-playwright --workers 4'
-  workingDirectory: angular/Playwright
   displayName: 'Run TEST'
   enabled: false
   continueOnError: true
@@ -49,8 +48,3 @@ steps:
 
 
 
-- script: 'npx allure generate ./allure-results --clean'
-  workingDirectory: angular/Playwright
-  displayName: 'Run Every  Module Clean Result'
-  continueOnError: true
-  condition: succeededOrFailed()
