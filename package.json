@@ -1,15 +1,27 @@
 {
   "name": "playwrightautomation",
   "version": "1.0.0",
-  "description": "New Technology related to Playwright",
-  "main": "index.js",
-  "scripts": {},
+  "description": "1.New Technology related to Playwright",
+  "main": "Adminauth.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.23.0",
+    "allure-js-commons": "^2.4.0",
+    "allure-playwright": "^2.4.0",
+    "playwright": "^1.35.1",
+    "playwright-core": "^1.35.1",
+    "properties": "^1.2.1",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.35.1",
-    "allure-commandline": "^2.23.0",
-    "allure-playwright": "^2.4.0"
+    "@playwright/test": "^1.35.1"
   }
 }
