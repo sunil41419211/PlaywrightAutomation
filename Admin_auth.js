@@ -1,7 +1,8 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
+import {Credential  } from '../PlaywrightAutomation/environmet';
 
-const websiteURL = 'https://testmovescoutpro.sirva.com/account/login';
+// const websiteURL = 'https://testmovescoutpro.sirva.com/account/login';
 const username = 'admin';
 const password = '123qwe';
 
@@ -11,7 +12,7 @@ async function generateAuthJSON() {
     const context = await browser.newContext();
     const page = await context.newPage();
 
-    await page.goto(websiteURL);
+    await page.goto(Credential.baseUrl);
 
     await fillLoginForm(page);
     await submitLoginForm(page);
