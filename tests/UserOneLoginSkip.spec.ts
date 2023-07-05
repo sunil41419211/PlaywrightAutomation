@@ -7,6 +7,7 @@ test("User 1 >> Test for Website Login Skip ", async ({ browser }) => {
   await page.waitForTimeout(2000);
 
   await page.getByRole('link', { name: 'Calendar' }).click();
+  await page.getByRole('link', { name: 'Candar' }).click();
   await page.waitForTimeout(2000);
 
 

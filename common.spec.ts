@@ -1,5 +1,5 @@
 //common.spec.ts
-import * as environment from '../PlaywrightAutomation/environmet.json';
+import * as environment from '../PlaywrightAutomation/utils/environmet.json';
 
 // let baseUrl="https://testmovescoutpro.sirva.com/account/login";
 

@@ -1,6 +1,6 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
-const environment = require('../PlaywrightAutomation/environmet.json');
+const environment = require('../PlaywrightAutomation/utils/environmet.json');
 
 
 async function generateAuthJSON() {
