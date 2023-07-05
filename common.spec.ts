@@ -1,5 +1,5 @@
 //common.spec.ts
-import { Credential } from '../PlaywrightAutomation/environmet';
+import * as environment from '../PlaywrightAutomation/environmet.json';
 
 // let baseUrl="https://testmovescoutpro.sirva.com/account/login";
 
@@ -9,7 +9,7 @@ import { Credential } from '../PlaywrightAutomation/environmet';
 export async function loginTestCodeforAdmin({ browser }) {
     const context = await browser.newContext({ storageState: "./adminauth.json" });
     const page = await context.newPage();
-    await page.goto(Credential.baseUrl);
+    await page.goto(environment.baseUrl);
     await page.waitForTimeout(5000);
 }
 
@@ -17,7 +17,7 @@ export async function loginTestCodeforAdmin({ browser }) {
 export async function loginTestCodeforUserOne({ browser }) {
     const context = await browser.newContext({ storageState: "./oneauth.json" });
     const page = await context.newPage();
-    await page.goto(Credential.baseUrl);
+    await page.goto(environment.baseUrl);
     await page.waitForTimeout(5000);
 }
 
@@ -25,7 +25,7 @@ export async function loginTestCodeforUserOne({ browser }) {
 export async function loginTestCodeforUserTwo({ browser }) {
     const context = await browser.newContext({ storageState: "./twoauth.json" });
     const page = await context.newPage();
-    await page.goto(Credential.baseUrl);
+    await page.goto(environment.baseUrl);
     await page.waitForTimeout(5000);
 }
 
