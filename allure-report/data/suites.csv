@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Jul 03 15:37:21 IST 2023","Mon Jul 03 15:37:40 IST 2023","18445","chromium","","","","","User 1 >> Test for Website Login Skip ",""
-"passed","Mon Jul 03 15:37:21 IST 2023","Mon Jul 03 15:37:46 IST 2023","25064","chromium","","","","","Admin >> Test for Website Login Skip",""
-"passed","Mon Jul 03 15:37:21 IST 2023","Mon Jul 03 15:37:48 IST 2023","27096","chromium","","","","","test for admin auth file",""
-"passed","Mon Jul 03 15:37:21 IST 2023","Mon Jul 03 15:37:47 IST 2023","25685","chromium","","","","","User 1 >> Test for Website Login Skip ",""
