@@ -97,16 +97,6 @@ test("User 1 >> Test for Website Login Skip ", async ({ browser }) => {
 
   await page.locator('#miles').fill('400');
 
-  // await page.locator('#loadDate').getByRole('button', { name: 'Toggle calendar' }).click();
-
-  // await page.waitForTimeout(3000);
-
-  // await page.getByRole('button', { name: '' }).click();
-
-  // await page.getByRole('button', { name: '' }).click();
-
-  // await page.getByRole('button', { name: '' }).click();
-
   await page.waitForTimeout(6000);
 
   // Get the current date
@@ -124,14 +114,7 @@ test("User 1 >> Test for Website Login Skip ", async ({ browser }) => {
   await page.waitForTimeout(2000);
 
   await page.locator('(//input[@placeholder="null"])[2]').type(formattedDate);
-  // await page.locator('#loadDate').getByPlaceholder('null').dblclick();
-
-  // await page.locator('#loadDate').getByPlaceholder('null').type('12');
-
-  // await page.locator('#loadDate').getByPlaceholder('null').type('12');
-  // await page.locator('#loadDate').getByPlaceholder('null').type('2023');
-  // await page.getByText(`${day}`).click();
-
+ 
   await page.waitForTimeout(2000);
 
   await page.getByRole('button', { name: 'Calculate Price' }).click();
